@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="refresh">Refresh</string>
+    <string name="restart">Restart</string>
+</resources>
