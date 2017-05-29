@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/root_lay"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,18 +21,19 @@
             android:orientation="vertical"
             android:weightSum="3">
             <Button
+                android:tag="1"
                 android:id="@+id/butto_1"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                />
+                android:layout_weight="1" />
             <Button
+                android:tag="4"
                 android:id="@+id/butto_4"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                />
+                android:layout_weight="1" />
             <Button
+                android:tag="7"
                 android:id="@+id/butto_7"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -46,16 +48,19 @@
             android:orientation="vertical"
             android:weightSum="3">
             <Button
+                android:tag="2"
                 android:id="@+id/butto_2"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
             <Button
+                android:tag="5"
                 android:id="@+id/butto_5"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
             <Button
+                android:tag="8"
                 android:id="@+id/butto_8"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -69,16 +74,19 @@
             android:orientation="vertical"
             android:weightSum="3">
             <Button
+                android:tag="3"
                 android:id="@+id/butto_3"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
             <Button
+                android:tag="6"
                 android:id="@+id/butto_6"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"/>
             <Button
+                android:tag="9"
                 android:id="@+id/butto_9"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
